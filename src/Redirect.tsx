@@ -11,7 +11,7 @@ export interface RedirectProps {
 }
 
 /**
- * Wraps the <Navigate> component and replaces "/:<paramName>" with "/<paramValue"
+ * Wraps the <Navigate> component and replaces "/:<paramName>" with "/<paramValue>"
  */
 export const Redirect: React.FC<RedirectProps> = ({ to, ...rest }) => {
   const params = useParams();

@@ -19,7 +19,7 @@ import {Redirect} from 'react-router6-redirect';
 ## Usage
 Important: each param name present in the `Redirect`'s `to` prop must exist in the `Route`'s `path` prop.
 ```jsx
-<Route path="original/path/:id" element={<Redirect to={"different/:id"}/>}/>
+<Route path="original/path/:id" element={<Redirect to="different/:id"/>}/>
 ```
 
 ## Supported props

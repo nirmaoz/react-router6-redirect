@@ -5,7 +5,7 @@
     "email" : "maoznir@gmail.com",
     "url" : "https://github.com/nirmaoz"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redirect component for react-router v6",
   "main": "./dist/dist/index.js",
   "module": "./dist/esm/index.js",

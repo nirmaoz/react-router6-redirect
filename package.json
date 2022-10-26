@@ -1,0 +1,44 @@
+{
+  "name": "react-router6-redirect",
+  "author": {
+    "name" : "Nir Maoz",
+    "email" : "maoznir@gmail.com",
+    "url" : "https://github.com/nirmaoz"
+  },
+  "version": "1.0.0",
+  "description": "Redirect component for react-router v6",
+  "main": "./dist/dist/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "scripts": {
+    "build": "npm run prettier && npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
+    "prettier": "npx prettier --write \"src/**/*.{ts,tsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirmaoz/react-router6-redirect.git"
+  },
+  "keywords": ["react", "router", "react-router", "react-router-dom", "redirect", "react-router-redirect", "react-router6-redirect"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nirmaoz/react-router6-redirect/issues"
+  },
+  "homepage": "https://github.com/nirmaoz/react-router6-redirect#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.23",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-router-dom": "^6.4.2",
+    "typescript": "^4.8.4"
+  },
+  "peerDependencies": {
+    "react": ">=16.8",
+    "react-dom": ">=16.8",
+    "react-router-dom": "^6.0.0"
+  },
+  "files": [
+    "/dist"
+  ]
+}

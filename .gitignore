@@ -1,0 +1,15 @@
+# IntelliJ
+.idea
+
+# Dependencies
+node_modules
+
+# Compilation
+build
+dist
+lib
+
+# React
+.DS_*
+**/*.backup.*
+**/*.back.*
